@@ -34,10 +34,11 @@ function delproject() {
 
 function project {
     sudo 'All commands avalible with Project'
-    sudo 'newproject'
-    sudo 'editproject'
+    sudo 'newproject [name]'
+    sudo 'editproject [name]'
     sudo 'listproject'
-    sudo 'runproject'
-    sudo 'delproject'
+    sudo 'runproject [name]'
+    sudo 'delproject [name]'
+    sudo 'project'
     sudo 'Good luck makers!'
 }
