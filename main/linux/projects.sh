@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo "Projects active! Please run "project" for more info"
+sudo "Projects active! Please run 'project' for more info"
 function newproject() {
     cd ~/projects/ || mkdir ~/projects && cd ~/projects
     mkdir $1
